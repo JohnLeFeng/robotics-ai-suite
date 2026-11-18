@@ -1,4 +1,4 @@
-# Getting Started
+# Installation & Setup
 
 This guide sets up and installs the Robotics AI Suite, providing a common base
 for running the included software and solutions and for developing your own
@@ -8,7 +8,7 @@ applications.
 This guide assumes you are familiar with common Linux terminal commands. An
 understanding of ROS is also highly recommended.
 
-- Review the supported [Development Kits](development_kits/index.md) before installation.
+- Review the [System Requirements](system_requirements.md) before installation.
 
 ## Select a Configuration
 

@@ -13,6 +13,10 @@
       titles_only=True
       )
     %}
-    {{- toctree_content -}}
+    {% if pagename.startswith('hardware_blueprints') %}
+      {{- toctree_content | filter_blueprints_sidebar -}}
+    {% else %}
+      {{- toctree_content | filter_development_stack_sidebar -}}
+    {% endif %}
   </div>
 </nav>
